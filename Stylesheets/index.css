@@ -545,7 +545,7 @@ body {
 }
 .main-page .mid-container #work #codepen {
   margin-top: 20px;
-  margin-left: 30vw;
+  align-self: center;
   background-color: inherit;
   color: var(--green);
   padding: 10px 18px;
@@ -627,12 +627,14 @@ body {
 }
 .main-page .mid-container footer .creator {
   text-align: center;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 0;
 }
 .main-page .mid-container footer .ref {
   text-align: center;
   font-size: 14px;
-  padding: 5px 20px 10px 20px;
+  padding: 0px 20px 10px 20px;
+  margin-top: 0;
 }
 .main-page .mid-container footer .ref a {
   text-decoration: none;
